@@ -6,9 +6,9 @@
 
 #### 4.1. 
 - 4.1. http request 구조 (Client ----request----> Server)
-![](https://blog.kakaocdn.net/dna/bUk1MH/btqD9Nwa5bh/AAAAAAAAAAAAAAAAAAAAAHzhVOCLZG0zt7QsnMifVgZPSZI5_n7VfcjEdRimpyAK/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=CLilKKunbdDDtC1W6SJJRWEZ1Nw%3D)
+[](https://blog.kakaocdn.net/dna/bUk1MH/btqD9Nwa5bh/AAAAAAAAAAAAAAAAAAAAAHzhVOCLZG0zt7QsnMifVgZPSZI5_n7VfcjEdRimpyAK/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=CLilKKunbdDDtC1W6SJJRWEZ1Nw%3D)
 - 4.2. http response 구조 (Client <----response----- Server)
-![](https://blog.kakaocdn.net/dna/B1ncV/btsEWyvMlHw/AAAAAAAAAAAAAAAAAAAAAL45lRSwnfiECq9bA3maLS9bNvJKyTAdK1qRYhj5CdIk/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=4W7bFYDbL3y%2BtTjTYJAu2voD%2F2Y%3D)
+[](https://blog.kakaocdn.net/dna/B1ncV/btsEWyvMlHw/AAAAAAAAAAAAAAAAAAAAAL45lRSwnfiECq9bA3maLS9bNvJKyTAdK1qRYhj5CdIk/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=4W7bFYDbL3y%2BtTjTYJAu2voD%2F2Y%3D)
 
 #### 4.2. Fast API 시작
 - [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
