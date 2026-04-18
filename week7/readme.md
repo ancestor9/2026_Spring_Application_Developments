@@ -1,9 +1,11 @@
 ## Modern Web
 
-#### 4.1. Fast API
+#### 4.1. Fast API Architecture
 [Learn_FastAPI_01](Learn_FastAPI_01.pdf)
 
 [Learn_FastAPI_02](Learn_FastAPI_02.pdf)
+
+[](https://media.licdn.com/dms/image/v2/D4D12AQG_nawivlNG-Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1688666263274?e=1778112000&v=beta&t=Axaxao_igLjKrua2h2eBMFrr32bz6suIsO5pvcTJ3XA)
 
 #### 4.2. Fast API 시작
 - [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
