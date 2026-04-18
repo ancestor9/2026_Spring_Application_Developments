@@ -1,5 +1,6 @@
 #### 4.1. Modern Web
-- pdf 참고(1. Modern Web.pdf)
+[kjb](Learn Fast API_01.pdf)
+[ijo](Learn Fast API_02.pdf)
 - http 구조 Review
 - 4.1. http request 구조 (Client ----request----> Server)
 ![](https://blog.kakaocdn.net/dna/bUk1MH/btqD9Nwa5bh/AAAAAAAAAAAAAAAAAAAAAHzhVOCLZG0zt7QsnMifVgZPSZI5_n7VfcjEdRimpyAK/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=CLilKKunbdDDtC1W6SJJRWEZ1Nw%3D)
