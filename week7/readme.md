@@ -4,6 +4,7 @@
 
 [Learn_FastAPI_02](Learn_FastAPI_02.pdf)
 
+#### 4.1. 
 - 4.1. http request 구조 (Client ----request----> Server)
 ![](https://blog.kakaocdn.net/dna/bUk1MH/btqD9Nwa5bh/AAAAAAAAAAAAAAAAAAAAAHzhVOCLZG0zt7QsnMifVgZPSZI5_n7VfcjEdRimpyAK/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1759244399&allow_ip=&allow_referer=&signature=CLilKKunbdDDtC1W6SJJRWEZ1Nw%3D)
 - 4.2. http response 구조 (Client <----response----- Server)
