@@ -22,7 +22,7 @@
 ### Fast API 코드 실습 (순차적 학습)
 - [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
 - main_server.py & client.py : CLient-Server 구조를 이해(request <---> response)
-- main.py : 메모리에 저장된 상품 데이터를 조회, 추가, 수정하고 이를 CSV 파일로 다운로드 가능
+- main.py : 메모리에 저장된 상품 데이터를 조회, 추가, 수정하고 이를 CSV 파일로 다운로드 가능 --> CRUD를 직접 try it out !
 - main_CRUD.py : Pydantic 모델을 활용하여 데이터의 형식 검증과 응답 모델링을 적용한 RESTful API의 CRUD(생성·조회·수정·삭제)
 
 ### Appendix
