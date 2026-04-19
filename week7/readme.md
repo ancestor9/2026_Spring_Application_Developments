@@ -1,4 +1,5 @@
 ## Modern Web
+[동기방식, 동시성과 병령성](동시성(Concurrency)_병렬성(Parallelism).pdf)
 
 #### 4.1. Fast API Architecture
 [Learn_FastAPI_01](Learn_FastAPI_01.pdf)
