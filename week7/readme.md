@@ -1,5 +1,8 @@
 ## Modern Web
-[동기방식, 동시성과 병령성](동시성(Concurrency)_병렬성(Parallelism).pdf)
+[동기방식, 동시성과 병렬성](동시성(Concurrency)_병렬성(Parallelism).pdf)
+### 코드 실습
+- 0422_sync_async_clean.ipynb
+- 0422_concurrency.py
 
 #### 4.1. Fast API Architecture
 [Learn_FastAPI_01](Learn_FastAPI_01.pdf)
