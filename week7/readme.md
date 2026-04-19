@@ -23,7 +23,7 @@
 #### 4.2.2.  Request Body, Head
 -     사전형, JSON, Pydantic 모듈 (Request/Response Body, POST Method), 여러 개 Request Body
 
-### Fast API 코드 실습
+### Fast API 코드 실습 (순차적 학습)
 - [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
 - main_server.py & client.py : CLient-Server 구조를 이해(request <---> response)
 - main.py : 메모리에 저장된 상품 데이터를 조회, 추가, 수정하고 이를 CSV 파일로 다운로드 가능
