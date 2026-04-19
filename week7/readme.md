@@ -21,8 +21,10 @@
 
 ### Fast API 코드 실습 (순차적 학습)
 - [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
+  
 -     Path와 Query Parameter 이해 : REST API 설계 시 path는 “무엇(리소스)”을 요청하는지, query는 “어떻게(조건, 옵션)”을 요청하는지 전달하는 방식으로 구분해 활용
 -     Request Body, Head : 사전형, JSON, Pydantic 모듈 (Request/Response Body, POST Method), 여러 개 Request Body
+  
 - main_server.py & client.py : CLient-Server 구조를 이해(request <---> response)
 - main.py : 메모리에 저장된 상품 데이터를 조회, 추가, 수정하고 이를 CSV 파일로 다운로드 가능
 - main_CRUD.py : Pydantic 모델을 활용하여 데이터의 형식 검증과 응답 모델링을 적용한 RESTful API의 CRUD(생성·조회·수정·삭제)
