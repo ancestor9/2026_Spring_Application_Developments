@@ -12,10 +12,6 @@
 ![](https://media.licdn.com/dms/image/v2/D4D12AQG_nawivlNG-Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1688666263274?e=1778112000&v=beta&t=Axaxao_igLjKrua2h2eBMFrr32bz6suIsO5pvcTJ3XA)
 
 #### 4.2. Fast API 시작
-- [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
-- [Firebase](https://www.youtube.com/watch?v=0A45kpsOCPY)
--     Firebase Studio에서 VIBE 코딩
-      Firebase는 모바일 및 웹 애플리케이션을 개발하기 위한 구글의 플랫폼
 - 가상환경 생성과 Fast API 설치(웹서버 uvicorn) -> Optional
 -          - FastAPI framework: pip install fastapi
            - Uvicorn web server: pip install uvicorn
@@ -28,3 +24,12 @@
 -     사전형, JSON, Pydantic 모듈 (Request/Response Body, POST Method), 여러 개 Request Body
 
 ### Fast API 코드 실습
+- [FastAPI 맛보기](https://fastapi.tiangolo.com/ko/)
+- main_server.py & client.py : CLient-Server 구조를 이해(request <---> response)
+- main.py : 메모리에 저장된 상품 데이터를 조회, 추가, 수정하고 이를 CSV 파일로 다운로드 가능
+- main_CRUD.py : Pydantic 모델을 활용하여 데이터의 형식 검증과 응답 모델링을 적용한 RESTful API의 CRUD(생성·조회·수정·삭제)
+
+### Appendix
+- [Firebase](https://www.youtube.com/watch?v=0A45kpsOCPY)
+-     Firebase Studio에서 VIBE 코딩
+      Firebase는 모바일 및 웹 애플리케이션을 개발하기 위한 구글의 플랫폼
