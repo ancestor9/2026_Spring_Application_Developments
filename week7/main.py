@@ -1,7 +1,8 @@
-
+# #########################################
+# # Fast API 기초
+# #########################################
 
 # from typing import Union
-
 # from fastapi import FastAPI
 
 # app = FastAPI()
@@ -15,6 +16,24 @@
 # @app.get("/items/{item_id}")
 # def read_item(item_id: int, q: Union[str, None] = None):
 #     return {"item_id": item_id, "q": q}
+
+# from pydantic import BaseModel
+
+# class Item(BaseModel):
+#     name: str
+#     price: float
+#     is_offer: bool | None = None
+
+
+# @app.put("/items/{item_id}")
+# def update_item(item_id: int, item: Item):
+#     return {"item_name": item.name, "item_id": item_id}
+
+# '''
+# Path와 Query Parameter 이해 : REST API 설계 시 path는 “무엇(리소스)”을 요청하는지, query는 “어떻게(조건, 옵션)”을 요청하는지 전달하는 방식으로 구분해 활용
+# Request Body, Head : 사전형, JSON, Pydantic 모듈 (Request/Response Body, POST Method), 여러 개 Request Body
+  
+# '''
 
 #########################################
 # 데이터베이스 만들기전에 csv로 만들어 보기
@@ -40,7 +59,7 @@ class Item(BaseModel):
 # 임시로 사용할 인메모리 데이터베이스입니다.
 # 실제 애플리케이션에서는 데이터베이스를 사용해야 합니다.
 items_db = {
-    1: {"name": "Laptop", "price": 1200.0, "is_offer": True},
+    1: {"name": "Laptop", "price": 120.0, "is_offer": True},
     2: {"name": "Mouse", "price": 25.0, "is_offer": False},
     3: {"name": "Keyboard", "price": 75.0, "is_offer": True}
 }
@@ -79,6 +98,21 @@ def update_item(item_id: int, item: Item):
     # 기존 상품 정보를 새로운 정보로 업데이트합니다.
     items_db[item_id] = item
     return {"message": "Item updated successfully!", "item": item}
+
+# 특정 상품 ID를 삭제하는 DELETE 요청을 처리합니다.
+@app.delete("/items/{item_id}")
+def delete_item(item_id: int):
+    # 만약 상품 ID가 데이터베이스에 없으면 404 에러를 반환합니다.
+    if item_id not in items_db:
+        raise HTTPException(status_code=404, detail="Item not found")
+    
+    # 데이터베이스에서 해당 아이템을 삭제합니다.
+    deleted_item = items_db.pop(item_id)
+    
+    return {
+        "message": f"Item {item_id} has been deleted successfully.",
+        "deleted_item": deleted_item
+    }
 
 # CSV 파일을 다운로드하는 GET 요청을 처리합니다.
 @app.get("/download-items-csv")
