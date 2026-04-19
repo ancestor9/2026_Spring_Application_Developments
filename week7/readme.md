@@ -27,4 +27,4 @@
 #### 4.2.2.  Request Body, Head
 -     사전형, JSON, Pydantic 모듈 (Request/Response Body, POST Method), 여러 개 Request Body
 
-#### 4.3. Fast API 코드 실습
+### Fast API 코드 실습
