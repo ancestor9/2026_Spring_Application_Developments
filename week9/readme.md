@@ -16,7 +16,7 @@
 Keyboard interruption in main thread... closing server. 
 
 #### step 3. 외부 url publish하기
----- if __name__ == "__main__":
+---- 
          iface.launch(share=True) 코드를 수정하여 다시 실행
 
 
