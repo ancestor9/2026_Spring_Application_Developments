@@ -10,7 +10,7 @@
 step 1. Fast API 백엔드를 먼저 run (Srver 작동)
 
 step 2. gradio UI를 실행하라 (Client 작동)
---- 아래 message 나오는 것 확인하고
+--- 아래 message 나오는 것 확인하고(로컬 PC에서 작동)
 * Running on local URL:  http://127.0.0.1:7860                                                                                 
 * To create a public link, set `share=True` in `launch()`.                                                                     
 Keyboard interruption in main thread... closing server. 
