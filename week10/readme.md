@@ -45,3 +45,11 @@
 ---
 
 ## 🔄 실행 흐름
+사용자 → Gradio UI → FastAPI → SQLite → 결과 반환
+
+---
+
+## 📌 핵심 포인트
+- DB → SQL → 시각화 → UI 흐름 구현
+- FastAPI + Gradio 결합 구조
+- 데이터 분석 대시보드 실습 예제
