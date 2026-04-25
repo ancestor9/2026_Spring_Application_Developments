@@ -17,3 +17,5 @@
           return commons
 
 ## 2. Streamlit 
+- Streamlit과 FastAPI를 연동하는 가장 표준적인 방법은 Client-Server 구조
+- Streamlit은 사용자 인터페이스(Frontend)를 담당하고, FastAPI는 로직이나 데이터 처리(Backend)를 담당하며 두 사이는 requests 라이브러리로 통신
