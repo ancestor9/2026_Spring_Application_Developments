@@ -1,6 +1,3 @@
-### Modern Web Architecture
-<img src="C:\Users\조근하\Downloads\Gemini_Generated_Image_rnohehrnohehrnoh.png" width="600" height="400">
-
 ## 1. Injection 
 - FastAPI에서 **의존성 주입(Dependency Injection, DI)* *은 코드의 재사용성을 높이고, 테스트를 쉽게 만들며, 로직을 깔끔하게 분리할 수 있게 해주는 아주 강력한 도구
 -         프로그래밍에서 의존성 주입은 객체가 필요한 객체(의존성)를 직접 생성하는 것이 아니라, 외부에서 넣어주는 방식
