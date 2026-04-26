@@ -1,3 +1,4 @@
 ### FastAPI
 #### [1. FastAPI 시작](https://fastapi.tiangolo.com/ko/)
-#### [2. 파이썬 타입 소개](https://fastapi.tiangolo.com/ko/python-types/)
+#### [2. FastAPI의 기능](https://fastapi.tiangolo.com/ko/features/#just-modern-python)
+#### [3. 파이썬 타입 소개](https://fastapi.tiangolo.com/ko/python-types/)
