@@ -1,4 +1,4 @@
-## Back to the FastAPI
+## Back to the FastAPI (2 weeks course)
 ### [1. FastAPI 시작](https://fastapi.tiangolo.com/ko/)
 ### [2. FastAPI의 기능](https://fastapi.tiangolo.com/ko/features/#just-modern-python)
 
