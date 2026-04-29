@@ -2,6 +2,7 @@
 ### 1.1. 단일 서버로 웹서비스
 - 모델 학습 및 저장 ----> train_model.py
 -       randomforest model (bootstrap)
+-   [random-forest](https://mlu-explain.github.io/random-forest/)
 - gradio를 FastAPI에 Mount 단일 서버   ----> main_gradio_mount.py
 ### 1.2. 별도 서버로 웹서비스
 - train_model.py : 모델 학습 및 저장(동일)
