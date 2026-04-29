@@ -49,4 +49,6 @@ iface = gr.Interface(
 )
 
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(share=True)
+    
+# 실행 명령어: python app_gradio.py
