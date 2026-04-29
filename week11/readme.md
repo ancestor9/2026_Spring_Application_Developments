@@ -1,8 +1,9 @@
 ## 1. ML 모델로 웹 서비스
-### 1.1 단일 서버로 웹서비스
+### 1.1. 단일 서버로 웹서비스
 - 모델 학습 및 저장 ----> train_model.py
+-       randomforest model (bootstrap)
 - gradio를 FastAPI에 Mount 단일 서버   ----> main_gradio_mount.py
-### 1.2 별도 서버로 웹서비스
+### 1.2. 별도 서버로 웹서비스
 - train_model.py : 모델 학습 및 저장(동일)
 - FastAPI 서버 실행(Server) ----> api.py
 - gardio 서버 실행(client, 별도 터미널에서 실행) ----> app_gradio.py
